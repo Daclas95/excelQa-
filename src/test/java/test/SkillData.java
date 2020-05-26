@@ -20,7 +20,7 @@ public class SkillData extends ExcelDataConfig {
         Object[][] data = new Object[rows][col];
         for (int i = 1; i <= rows; i++) {
             for (int j = 0; j < col; j++) {
-                data[i - 1][j] = getData("Sheet4", i, j);
+                data[i - 1][j] = getData("Sheet3", i, j);
             }
         }
         return data;
